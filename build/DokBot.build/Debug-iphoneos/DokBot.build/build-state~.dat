@@ -1,0 +1,301 @@
+TDokBot
+v7
+r1
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk
+c000000004D5F25270000000000000110
+t1298081063
+s272
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist
+c000000004D4F6A4700000000000001A7
+t1297050183
+s423
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+c000000004D4F6A4700000000000001E5
+t1297050183
+s485
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004D54D18C00000000003532A0
+t1297404300
+s3486368
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004D54D1F500000000003E22F0
+t1297404405
+s4072176
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004D54D1DD0000000000001466
+t1297404381
+s5222
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004D5A28AB0000000000000AA1
+t1297754283
+s2721
+
+N/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004D5A292A0000000000CA2AE0
+t1297754410
+s13249248
+
+N/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.h
+c000000004D913E2D00000000000001D4
+t1301364269
+s468
+i<UIKit/UIKit.h>
+
+N/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m
+c000000004D9148BC0000000000000D7F
+t1301366972
+s3455
+i"DokBotAppDelegate.h"
+
+N/Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.h
+c000000004D913E2D00000000000000E7
+t1301364269
+s231
+i<UIKit/UIKit.h>
+
+N/Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.m
+c000000004D913E2D00000000000005B0
+t1301364269
+s1456
+i"FirstViewController.h"
+
+N/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.h
+c000000004D91466E00000000000000E7
+t1301366382
+s231
+i<UIKit/UIKit.h>
+
+N/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.m
+c000000004D9149B10000000000000C2B
+t1301367217
+s3115
+i"LoginViewController.h"
+
+N/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.xib
+c000000004D91466E0000000000001874
+t1301366382
+s6260
+
+N/Users/sean/Documents/iPhone dev/DokBot/DokBot_Prefix.pch
+c000000004D913E2D00000000000000B5
+t1301364269
+s181
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/sean/Documents/iPhone dev/DokBot/FirstView.xib
+c000000004D913E2D00000000000049D0
+t1301364269
+s18896
+
+N/Users/sean/Documents/iPhone dev/DokBot/MainWindow.xib
+c000000004D913E2D000000000000642A
+t1301364269
+s25642
+
+N/Users/sean/Documents/iPhone dev/DokBot/SecondView.xib
+c000000004D913E2D00000000000049CE
+t1301364269
+s18894
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app.dSYM
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/DokBot
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/FirstView.nib
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/Info.plist
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/LoginViewController.nib
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/MainWindow.nib
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/PkgInfo
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/ResourceRules.plist
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/SecondView.nib
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/DokBot.xcent
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv6/DokBot
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv6/DokBot.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv6/DokBotAppDelegate.o
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv6/FirstViewController.o
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv6/LoginViewController.o
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv6/main.o
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv7/DokBot
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv7/DokBot.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv7/DokBotAppDelegate.o
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv7/FirstViewController.o
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv7/LoginViewController.o
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/sean/Documents/iPhone dev/DokBot/main.m
+c000000004D913E2D0000000000000162
+t1301364269
+s354
+i<UIKit/UIKit.h>
+
+N/Users/sean/Library/MobileDevice/Provisioning Profiles/SQ_Development_Profile.mobileprovision
+c000000004D879E470000000000001CAB
+t1300733511
+s7339
+
+N/var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-asdixqyuhsbqxvfaqchyivsdnpow/DokBot_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-cvakdwugqtsucpgfasimjnxcsxji/DokBot_Prefix.pch.gch
+t2
+s0
+
+NDokBot-Info.plist
+c000000004D913E2D000000000000038D
+t1301364269
+s909
+
+CCodeSign "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app"
+r0
+
+CCompileC build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv6/DokBotAppDelegate.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv6/FirstViewController.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv6/LoginViewController.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv6/main.o "/Users/sean/Documents/iPhone dev/DokBot/main.m" normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv7/DokBotAppDelegate.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv7/FirstViewController.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv7/LoginViewController.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv7/main.o "/Users/sean/Documents/iPhone dev/DokBot/main.m" normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.xib"
+r0
+
+CCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/FirstView.xib"
+r0
+
+CCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/MainWindow.xib"
+r0
+
+CCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/SecondView.xib"
+r0
+
+CCpResource build/Debug-iphoneos/DokBot.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/ResourceRules.plist
+r0
+
+CCreateUniversalBinary "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/DokBot" normal "armv6 armv7"
+r0
+
+CGenerateDSYMFile "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app.dSYM" "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/DokBot"
+r0
+
+CLd "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv6/DokBot" normal armv6
+r0
+
+CLd "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/Objects-normal/armv7/DokBot" normal armv7
+r0
+
+CProcessInfoPlistFile "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/Info.plist" DokBot-Info.plist
+r0
+
+CProcessPCH /var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-asdixqyuhsbqxvfaqchyivsdnpow/DokBot_Prefix.pch.gch DokBot_Prefix.pch normal armv7 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-cvakdwugqtsucpgfasimjnxcsxji/DokBot_Prefix.pch.gch DokBot_Prefix.pch normal armv6 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessProductPackaging "/Users/sean/Library/MobileDevice/Provisioning Profiles/SQ_Development_Profile.mobileprovision" "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app/embedded.mobileprovision"
+r0
+
+CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/Entitlements.plist "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphoneos/DokBot.build/DokBot.xcent"
+r0
+
+CTouch "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphoneos/DokBot.app"
+r0
+

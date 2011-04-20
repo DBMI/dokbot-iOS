@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145587C3134BF67500FE9E7E /* QuestionPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 145587C2134BF67500FE9E7E /* QuestionPreviewCell.m */; };
+		145587C6134BF68500FE9E7E /* AnswerInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 145587C5134BF68500FE9E7E /* AnswerInfoCell.m */; };
+		145587C9134BF6AB00FE9E7E /* AnswerControlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 145587C8134BF6AB00FE9E7E /* AnswerControlCell.m */; };
+		145587CD134BF6DC00FE9E7E /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 145587CB134BF6DC00FE9E7E /* CommentViewController.m */; };
+		145587CE134BF6DC00FE9E7E /* CommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 145587CC134BF6DC00FE9E7E /* CommentViewController.xib */; };
+		14841BFD13417DEE00215454 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14841BFB13417DEE00215454 /* LoginViewController.m */; };
+		14841BFE13417DEE00215454 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14841BFC13417DEE00215454 /* LoginViewController.xib */; };
+		14841C5C1341856300215454 /* PullToReload.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14841C571341856300215454 /* PullToReload.bundle */; };
+		14841C5D1341856300215454 /* UIPullToReloadHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14841C591341856300215454 /* UIPullToReloadHeaderView.m */; };
+		14841C5E1341856300215454 /* UIPullToReloadTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14841C5B1341856300215454 /* UIPullToReloadTableViewController.m */; };
+		14841C76134185D500215454 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14841C74134185D500215454 /* HomeViewController.m */; };
+		14841C77134185D500215454 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14841C75134185D500215454 /* HomeViewController.xib */; };
+		14841CAF13418A1F00215454 /* QuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14841CAD13418A1F00215454 /* QuestionViewController.m */; };
+		14841CB013418A1F00215454 /* QuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14841CAE13418A1F00215454 /* QuestionViewController.xib */; };
+		14841D0E1341951400215454 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14841D0C1341951400215454 /* SearchViewController.m */; };
+		14841D0F1341951400215454 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14841D0D1341951400215454 /* SearchViewController.xib */; };
+		14841D131341952500215454 /* NewQuestionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14841D111341952500215454 /* NewQuestionViewController.m */; };
+		14841D141341952500215454 /* NewQuestionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14841D121341952500215454 /* NewQuestionViewController.xib */; };
+		1496A0B11343E108001781AE /* TextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1496A0B01343E108001781AE /* TextViewCell.m */; };
+		14AD04591353816100EC1E6C /* dokbot.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD04581353816100EC1E6C /* dokbot.m */; };
+		14AD045D135381D700EC1E6C /* Question.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD045C135381D700EC1E6C /* Question.m */; };
+		14AD0460135381DD00EC1E6C /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD045F135381DD00EC1E6C /* User.m */; };
+		14AD07B11353EF3800EC1E6C /* Answer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD07B01353EF3800EC1E6C /* Answer.m */; };
+		14AD0A9C1355F28B00EC1E6C /* NewAnswerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AD0A9A1355F28B00EC1E6C /* NewAnswerViewController.m */; };
+		14AD0A9D1355F28B00EC1E6C /* NewAnswerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14AD0A9B1355F28B00EC1E6C /* NewAnswerViewController.xib */; };
+		14DD152B134FAE1B009DC6A3 /* ServerComm.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD152A134FAE1B009DC6A3 /* ServerComm.m */; };
+		14DE68A71352AAD200923566 /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE689E1352AAD200923566 /* NSObject+SBJSON.m */; };
+		14DE68A81352AAD200923566 /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE68A01352AAD200923566 /* NSString+SBJSON.m */; };
+		14DE68A91352AAD200923566 /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE68A21352AAD200923566 /* SBJsonBase.m */; };
+		14DE68AA1352AAD200923566 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE68A41352AAD200923566 /* SBJsonParser.m */; };
+		14DE68AB1352AAD200923566 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DE68A61352AAD200923566 /* SBJsonWriter.m */; };
+		14FE23F2135E68ED00E01028 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FE23F0135E68ED00E01028 /* ProfileViewController.m */; };
+		14FE23F3135E68ED00E01028 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14FE23F1135E68ED00E01028 /* ProfileViewController.xib */; };
+		14FE23F6135E69C600E01028 /* drmario.png in Resources */ = {isa = PBXBuildFile; fileRef = 14FE23F5135E69C600E01028 /* drmario.png */; };
+		1D3623260D0F684500981E51 /* DokBotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* DokBotAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765070DF74369002DB57D /* CoreGraphics.framework */; };
+		28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD73870D9D96C1002E5188 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		145587C1134BF67500FE9E7E /* QuestionPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionPreviewCell.h; sourceTree = "<group>"; };
+		145587C2134BF67500FE9E7E /* QuestionPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionPreviewCell.m; sourceTree = "<group>"; };
+		145587C4134BF68500FE9E7E /* AnswerInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerInfoCell.h; sourceTree = "<group>"; };
+		145587C5134BF68500FE9E7E /* AnswerInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerInfoCell.m; sourceTree = "<group>"; };
+		145587C7134BF6AB00FE9E7E /* AnswerControlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnswerControlCell.h; sourceTree = "<group>"; };
+		145587C8134BF6AB00FE9E7E /* AnswerControlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnswerControlCell.m; sourceTree = "<group>"; };
+		145587CA134BF6DC00FE9E7E /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		145587CB134BF6DC00FE9E7E /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		145587CC134BF6DC00FE9E7E /* CommentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentViewController.xib; sourceTree = "<group>"; };
+		14841BFA13417DEE00215454 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		14841BFB13417DEE00215454 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		14841BFC13417DEE00215454 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		14841C571341856300215454 /* PullToReload.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PullToReload.bundle; sourceTree = "<group>"; };
+		14841C581341856300215454 /* UIPullToReloadHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPullToReloadHeaderView.h; sourceTree = "<group>"; };
+		14841C591341856300215454 /* UIPullToReloadHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPullToReloadHeaderView.m; sourceTree = "<group>"; };
+		14841C5A1341856300215454 /* UIPullToReloadTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIPullToReloadTableViewController.h; sourceTree = "<group>"; };
+		14841C5B1341856300215454 /* UIPullToReloadTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIPullToReloadTableViewController.m; sourceTree = "<group>"; };
+		14841C73134185D500215454 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		14841C74134185D500215454 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		14841C75134185D500215454 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		14841CAC13418A1F00215454 /* QuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuestionViewController.h; sourceTree = "<group>"; };
+		14841CAD13418A1F00215454 /* QuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuestionViewController.m; sourceTree = "<group>"; };
+		14841CAE13418A1F00215454 /* QuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QuestionViewController.xib; sourceTree = "<group>"; };
+		14841D0B1341951400215454 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		14841D0C1341951400215454 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		14841D0D1341951400215454 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		14841D101341952500215454 /* NewQuestionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewQuestionViewController.h; sourceTree = "<group>"; };
+		14841D111341952500215454 /* NewQuestionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewQuestionViewController.m; sourceTree = "<group>"; };
+		14841D121341952500215454 /* NewQuestionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewQuestionViewController.xib; sourceTree = "<group>"; };
+		1496A0AF1343E108001781AE /* TextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewCell.h; sourceTree = "<group>"; };
+		1496A0B01343E108001781AE /* TextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewCell.m; sourceTree = "<group>"; };
+		14AD04571353816100EC1E6C /* dokbot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dokbot.h; sourceTree = "<group>"; };
+		14AD04581353816100EC1E6C /* dokbot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dokbot.m; sourceTree = "<group>"; };
+		14AD045B135381D700EC1E6C /* Question.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Question.h; sourceTree = "<group>"; };
+		14AD045C135381D700EC1E6C /* Question.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Question.m; sourceTree = "<group>"; };
+		14AD045E135381DD00EC1E6C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		14AD045F135381DD00EC1E6C /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		14AD07AF1353EF3800EC1E6C /* Answer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Answer.h; sourceTree = "<group>"; };
+		14AD07B01353EF3800EC1E6C /* Answer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Answer.m; sourceTree = "<group>"; };
+		14AD0A991355F28B00EC1E6C /* NewAnswerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAnswerViewController.h; sourceTree = "<group>"; };
+		14AD0A9A1355F28B00EC1E6C /* NewAnswerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAnswerViewController.m; sourceTree = "<group>"; };
+		14AD0A9B1355F28B00EC1E6C /* NewAnswerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewAnswerViewController.xib; sourceTree = "<group>"; };
+		14DD1529134FAE1B009DC6A3 /* ServerComm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerComm.h; sourceTree = "<group>"; };
+		14DD152A134FAE1B009DC6A3 /* ServerComm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerComm.m; sourceTree = "<group>"; };
+		14DE689C1352AAD200923566 /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		14DE689D1352AAD200923566 /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		14DE689E1352AAD200923566 /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		14DE689F1352AAD200923566 /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		14DE68A01352AAD200923566 /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		14DE68A11352AAD200923566 /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		14DE68A21352AAD200923566 /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		14DE68A31352AAD200923566 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		14DE68A41352AAD200923566 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		14DE68A51352AAD200923566 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		14DE68A61352AAD200923566 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		14FE23EF135E68ED00E01028 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		14FE23F0135E68ED00E01028 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		14FE23F1135E68ED00E01028 /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		14FE23F5135E69C600E01028 /* drmario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drmario.png; sourceTree = "<group>"; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* DokBotAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DokBotAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* DokBotAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DokBotAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* DokBot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DokBot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765070DF74369002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28A0AB4B0D9B1048005BE974 /* DokBot_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DokBot_Prefix.pch; sourceTree = "<group>"; };
+		28AD73870D9D96C1002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* DokBot-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "DokBot-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765080DF74369002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* DokBotAppDelegate.h */,
+				1D3623250D0F684500981E51 /* DokBotAppDelegate.m */,
+				14841BFA13417DEE00215454 /* LoginViewController.h */,
+				14841BFB13417DEE00215454 /* LoginViewController.m */,
+				14841BFC13417DEE00215454 /* LoginViewController.xib */,
+				14841C73134185D500215454 /* HomeViewController.h */,
+				14841C74134185D500215454 /* HomeViewController.m */,
+				14841C75134185D500215454 /* HomeViewController.xib */,
+				14841CAC13418A1F00215454 /* QuestionViewController.h */,
+				14841CAD13418A1F00215454 /* QuestionViewController.m */,
+				14841CAE13418A1F00215454 /* QuestionViewController.xib */,
+				14841D0B1341951400215454 /* SearchViewController.h */,
+				14841D0C1341951400215454 /* SearchViewController.m */,
+				14841D0D1341951400215454 /* SearchViewController.xib */,
+				14841D101341952500215454 /* NewQuestionViewController.h */,
+				14841D111341952500215454 /* NewQuestionViewController.m */,
+				14841D121341952500215454 /* NewQuestionViewController.xib */,
+				145587CA134BF6DC00FE9E7E /* CommentViewController.h */,
+				145587CB134BF6DC00FE9E7E /* CommentViewController.m */,
+				145587CC134BF6DC00FE9E7E /* CommentViewController.xib */,
+				14AD0A991355F28B00EC1E6C /* NewAnswerViewController.h */,
+				14AD0A9A1355F28B00EC1E6C /* NewAnswerViewController.m */,
+				14AD0A9B1355F28B00EC1E6C /* NewAnswerViewController.xib */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		14841C561341856300215454 /* pullToReload */ = {
+			isa = PBXGroup;
+			children = (
+				14841C571341856300215454 /* PullToReload.bundle */,
+				14841C581341856300215454 /* UIPullToReloadHeaderView.h */,
+				14841C591341856300215454 /* UIPullToReloadHeaderView.m */,
+				14841C5A1341856300215454 /* UIPullToReloadTableViewController.h */,
+				14841C5B1341856300215454 /* UIPullToReloadTableViewController.m */,
+			);
+			name = pullToReload;
+			sourceTree = "<group>";
+		};
+		14841D3313419A5A00215454 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				14AD04571353816100EC1E6C /* dokbot.h */,
+				14AD04581353816100EC1E6C /* dokbot.m */,
+				14AD045B135381D700EC1E6C /* Question.h */,
+				14AD045C135381D700EC1E6C /* Question.m */,
+				14AD045E135381DD00EC1E6C /* User.h */,
+				14AD045F135381DD00EC1E6C /* User.m */,
+				14AD07AF1353EF3800EC1E6C /* Answer.h */,
+				14AD07B01353EF3800EC1E6C /* Answer.m */,
+			);
+			name = "Data Model";
+			sourceTree = "<group>";
+		};
+		1496A0A91343E0D2001781AE /* Table View Stuff */ = {
+			isa = PBXGroup;
+			children = (
+				1496A0AF1343E108001781AE /* TextViewCell.h */,
+				1496A0B01343E108001781AE /* TextViewCell.m */,
+				145587C1134BF67500FE9E7E /* QuestionPreviewCell.h */,
+				145587C2134BF67500FE9E7E /* QuestionPreviewCell.m */,
+				145587C4134BF68500FE9E7E /* AnswerInfoCell.h */,
+				145587C5134BF68500FE9E7E /* AnswerInfoCell.m */,
+				145587C7134BF6AB00FE9E7E /* AnswerControlCell.h */,
+				145587C8134BF6AB00FE9E7E /* AnswerControlCell.m */,
+			);
+			name = "Table View Stuff";
+			sourceTree = "<group>";
+		};
+		14DD1528134FAE05009DC6A3 /* Server Communication */ = {
+			isa = PBXGroup;
+			children = (
+				14DD1529134FAE1B009DC6A3 /* ServerComm.h */,
+				14DD152A134FAE1B009DC6A3 /* ServerComm.m */,
+			);
+			name = "Server Communication";
+			sourceTree = "<group>";
+		};
+		14DE689B1352AAC700923566 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				14DE689C1352AAD200923566 /* JSON.h */,
+				14DE689D1352AAD200923566 /* NSObject+SBJSON.h */,
+				14DE689E1352AAD200923566 /* NSObject+SBJSON.m */,
+				14DE689F1352AAD200923566 /* NSString+SBJSON.h */,
+				14DE68A01352AAD200923566 /* NSString+SBJSON.m */,
+				14DE68A11352AAD200923566 /* SBJsonBase.h */,
+				14DE68A21352AAD200923566 /* SBJsonBase.m */,
+				14DE68A31352AAD200923566 /* SBJsonParser.h */,
+				14DE68A41352AAD200923566 /* SBJsonParser.m */,
+				14DE68A51352AAD200923566 /* SBJsonWriter.h */,
+				14DE68A61352AAD200923566 /* SBJsonWriter.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		14FE23EA135E615800E01028 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				14FE23EF135E68ED00E01028 /* ProfileViewController.h */,
+				14FE23F0135E68ED00E01028 /* ProfileViewController.m */,
+				14FE23F1135E68ED00E01028 /* ProfileViewController.xib */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* DokBot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* DokBot */ = {
+			isa = PBXGroup;
+			children = (
+				14DE689B1352AAC700923566 /* JSON */,
+				14DD1528134FAE05009DC6A3 /* Server Communication */,
+				1496A0A91343E0D2001781AE /* Table View Stuff */,
+				14841D3313419A5A00215454 /* Data Model */,
+				14841C561341856300215454 /* pullToReload */,
+				14FE23EA135E615800E01028 /* Profile */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = DokBot;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				28A0AB4B0D9B1048005BE974 /* DokBot_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				14FE23F5135E69C600E01028 /* drmario.png */,
+				28AD73870D9D96C1002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* DokBot-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765070DF74369002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* DokBot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DokBot" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DokBot;
+			productName = DokBot;
+			productReference = 1D6058910D05DD3D006BFB54 /* DokBot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DokBot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* DokBot */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* DokBot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD73880D9D96C1002E5188 /* MainWindow.xib in Resources */,
+				14841BFE13417DEE00215454 /* LoginViewController.xib in Resources */,
+				14841C5C1341856300215454 /* PullToReload.bundle in Resources */,
+				14841C77134185D500215454 /* HomeViewController.xib in Resources */,
+				14841CB013418A1F00215454 /* QuestionViewController.xib in Resources */,
+				14841D0F1341951400215454 /* SearchViewController.xib in Resources */,
+				14841D141341952500215454 /* NewQuestionViewController.xib in Resources */,
+				145587CE134BF6DC00FE9E7E /* CommentViewController.xib in Resources */,
+				14AD0A9D1355F28B00EC1E6C /* NewAnswerViewController.xib in Resources */,
+				14FE23F3135E68ED00E01028 /* ProfileViewController.xib in Resources */,
+				14FE23F6135E69C600E01028 /* drmario.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* DokBotAppDelegate.m in Sources */,
+				14841BFD13417DEE00215454 /* LoginViewController.m in Sources */,
+				14841C5D1341856300215454 /* UIPullToReloadHeaderView.m in Sources */,
+				14841C5E1341856300215454 /* UIPullToReloadTableViewController.m in Sources */,
+				14841C76134185D500215454 /* HomeViewController.m in Sources */,
+				14841CAF13418A1F00215454 /* QuestionViewController.m in Sources */,
+				14841D0E1341951400215454 /* SearchViewController.m in Sources */,
+				14841D131341952500215454 /* NewQuestionViewController.m in Sources */,
+				1496A0B11343E108001781AE /* TextViewCell.m in Sources */,
+				145587C3134BF67500FE9E7E /* QuestionPreviewCell.m in Sources */,
+				145587C6134BF68500FE9E7E /* AnswerInfoCell.m in Sources */,
+				145587C9134BF6AB00FE9E7E /* AnswerControlCell.m in Sources */,
+				145587CD134BF6DC00FE9E7E /* CommentViewController.m in Sources */,
+				14DD152B134FAE1B009DC6A3 /* ServerComm.m in Sources */,
+				14DE68A71352AAD200923566 /* NSObject+SBJSON.m in Sources */,
+				14DE68A81352AAD200923566 /* NSString+SBJSON.m in Sources */,
+				14DE68A91352AAD200923566 /* SBJsonBase.m in Sources */,
+				14DE68AA1352AAD200923566 /* SBJsonParser.m in Sources */,
+				14DE68AB1352AAD200923566 /* SBJsonWriter.m in Sources */,
+				14AD04591353816100EC1E6C /* dokbot.m in Sources */,
+				14AD045D135381D700EC1E6C /* Question.m in Sources */,
+				14AD0460135381DD00EC1E6C /* User.m in Sources */,
+				14AD07B11353EF3800EC1E6C /* Answer.m in Sources */,
+				14AD0A9C1355F28B00EC1E6C /* NewAnswerViewController.m in Sources */,
+				14FE23F2135E68ED00E01028 /* ProfileViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DokBot_Prefix.pch;
+				INFOPLIST_FILE = "DokBot-Info.plist";
+				PRODUCT_NAME = DokBot;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DokBot_Prefix.pch;
+				INFOPLIST_FILE = "DokBot-Info.plist";
+				PRODUCT_NAME = DokBot;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "DokBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "DokBot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
