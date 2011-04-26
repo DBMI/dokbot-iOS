@@ -51,7 +51,7 @@
 	question.title = @"null";
 	question.content = questionView.text;
 	servercomm.notJSON = YES;
-	[servercomm post:[question getAsJSON] to:@"questions/new.json" withToken:bot.authToken];
+	[servercomm post:[question getAsJSON] to:@"questions.json" withToken:bot.authToken];
 	
 	[question release];
 	[servercomm release];

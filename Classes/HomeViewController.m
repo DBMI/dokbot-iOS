@@ -279,6 +279,11 @@
 
 - (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
 {
+	
+	//TODO: use:/questions/search?query=<some query> to do server side searching when number of questions gets large
+	
+	
+	
     /*
      Update the filtered array based on the search text and scope.
      */

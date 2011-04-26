@@ -1,305 +1,0 @@
-TDokBot
-v7
-r0
-t323060064.443278
-cCheck dependencies
-cProcessInfoPlistFile "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/Info.plist" DokBot-Info.plist
-cCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/MainWindow.xib"
-cCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/SecondView.xib"
-cCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/FirstView.xib"
-cCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.xib"
-cProcessPCH /var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-drvphilusbmlkyergahwgnwdflaf/DokBot_Prefix.pch.gch DokBot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/main.o "/Users/sean/Documents/iPhone dev/DokBot/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/DokBotAppDelegate.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/FirstViewController.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/LoginViewController.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk
-c000000004D5C9B4E0000000000000110
-t1297914702
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004D54CFFA00000000002999B0
-t1297403898
-s2726320
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004D54CFE5000000000029DA70
-t1297403877
-s2742896
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004D54CFB80000000000001466
-t1297403832
-s5222
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004D5615B40000000000000AA1
-t1297487284
-s2721
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004D5616030000000000766870
-t1297487363
-s7759984
-
-N/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.h
-c000000004D913E2D00000000000001D4
-t1301364269
-s468
-i<UIKit/UIKit.h>
-
-N/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m
-c000000004D9148BC0000000000000D7F
-t1301366972
-s3455
-i"DokBotAppDelegate.h"
-
-N/Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.h
-c000000004D913E2D00000000000000E7
-t1301364269
-s231
-i<UIKit/UIKit.h>
-
-N/Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.m
-c000000004D913E2D00000000000005B0
-t1301364269
-s1456
-i"FirstViewController.h"
-
-N/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.h
-c000000004D91466E00000000000000E7
-t1301366382
-s231
-i<UIKit/UIKit.h>
-
-N/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.m
-c000000004D9149B10000000000000C2B
-t1301367217
-s3115
-i"LoginViewController.h"
-
-N/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.xib
-c000000004D914819000000000000525A
-t1301366809
-s21082
-
-N/Users/sean/Documents/iPhone dev/DokBot/DokBot_Prefix.pch
-c000000004D913E2D00000000000000B5
-t1301364269
-s181
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Users/sean/Documents/iPhone dev/DokBot/FirstView.xib
-c000000004D913E2D00000000000049D0
-t1301364269
-s18896
-
-N/Users/sean/Documents/iPhone dev/DokBot/MainWindow.xib
-c000000004D913E2D000000000000642A
-t1301364269
-s25642
-
-N/Users/sean/Documents/iPhone dev/DokBot/SecondView.xib
-c000000004D913E2D00000000000049CE
-t1301364269
-s18894
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app
-t2
-s0
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app.dSYM
-t2
-s0
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/DokBot
-t2
-s0
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/FirstView.nib
-t1301367262
-s2923
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/Info.plist
-t1301367258
-s587
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/LoginViewController.nib
-t1301367262
-s3120
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/MainWindow.nib
-t1301367261
-s3052
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/PkgInfo
-t1301367258
-s8
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/SecondView.nib
-t1301367261
-s2920
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/DokBot.LinkFileList
-c000000004D9149DA000000000000020F
-t1301367258
-s527
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/DokBotAppDelegate.o
-t2
-s0
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/FirstViewController.o
-t1301367264
-s37904
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/LoginViewController.o
-t1301367264
-s41352
-
-N/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/main.o
-t1301367264
-s6312
-
-N/Users/sean/Documents/iPhone dev/DokBot/main.m
-c000000004D913E2D0000000000000162
-t1301364269
-s354
-i<UIKit/UIKit.h>
-
-N/var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-drvphilusbmlkyergahwgnwdflaf/DokBot_Prefix.pch.gch
-t1301367264
-s15814064
-
-NDokBot-Info.plist
-c000000004D913E2D000000000000038D
-t1301364269
-s909
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies323060058#323060058#0(0"0(0#1#0"8659798240#0"0#
-
-CCompileC build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/DokBotAppDelegate.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s323060064.125737
-e323060064.236659
-r0
-xCompileC
-xbuild/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/DokBotAppDelegate.o
-x/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-o/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m: In function '-[DokBotAppDelegate application:didFinishLaunchingWithOptions:]':
-o/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m:34: error: 'LoginViewController' undeclared (first use in this function)
-o/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m:34: error: (Each undeclared identifier is reported only once
-o/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m:34: error: for each function it appears in.)
-o/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m:34: error: 'loginController' undeclared (first use in this function)
-lSLF07#2@75"Compile /Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m323060064#323060064#0(668"/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m: In function '-[DokBotAppDelegate application:didFinishLaunchingWithOptions:]':/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m:34: error: 'LoginViewController' undeclared (first use in this function)/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m:34: error: (Each undeclared identifier is reported only once/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m:34: error: for each function it appears in.)/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m:34: error: 'loginController' undeclared (first use in this function)2(4@61"'LoginViewController' undeclared (first use in this function)323060064#148#141#0(6@67"/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m323059772#34#0#34#0#43"'*' undeclared (first use in this function)0(4@57"'loginController' undeclared (first use in this function)323060064#531#137#0(6@67"/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m323059772#34#0#34#0#43"'*' undeclared (first use in this function)0(0#0#67"/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m8660423488#1961"    cd "/Users/sean/Documents/iPhone dev/DokBot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-generated-files.hmap" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-own-target-headers.hmap" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-all-target-headers.hmap" -iquote "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-project-headers.hmap" "-F/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator" "-I/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/include" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DerivedSources/i386" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DerivedSources" -include /var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-drvphilusbmlkyergahwgnwdflaf/DokBot_Prefix.pch -c "/Users/sean/Documents/iPhone dev/DokBot/Classes/DokBotAppDelegate.m" -o "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/DokBotAppDelegate.o"1#
-
-CCompileC build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/FirstViewController.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s323060064.236789
-e323060064.375067
-r1
-xCompileC
-xbuild/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/FirstViewController.o
-x/Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.m323060064#323060064#0(0"0(0#0#69"/Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.m8650550048#1965"    cd "/Users/sean/Documents/iPhone dev/DokBot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-generated-files.hmap" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-own-target-headers.hmap" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-all-target-headers.hmap" -iquote "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-project-headers.hmap" "-F/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator" "-I/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/include" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DerivedSources/i386" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DerivedSources" -include /var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-drvphilusbmlkyergahwgnwdflaf/DokBot_Prefix.pch -c "/Users/sean/Documents/iPhone dev/DokBot/Classes/FirstViewController.m" -o "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/FirstViewController.o"0#
-
-CCompileC build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/LoginViewController.o "/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s323060064.266545
-e323060064.443178
-r1
-xCompileC
-xbuild/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/LoginViewController.o
-x/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@77"Compile /Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.m323060064#323060064#0(0"0(0#0#69"/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.m8646743328#1965"    cd "/Users/sean/Documents/iPhone dev/DokBot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-generated-files.hmap" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-own-target-headers.hmap" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-all-target-headers.hmap" -iquote "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-project-headers.hmap" "-F/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator" "-I/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/include" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DerivedSources/i386" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DerivedSources" -include /var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-drvphilusbmlkyergahwgnwdflaf/DokBot_Prefix.pch -c "/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.m" -o "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/LoginViewController.o"0#
-
-CCompileC build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/main.o "/Users/sean/Documents/iPhone dev/DokBot/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s323060064.123618
-e323060064.266412
-r1
-xCompileC
-xbuild/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/main.o
-x/Users/sean/Documents/iPhone dev/DokBot/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@54"Compile /Users/sean/Documents/iPhone dev/DokBot/main.m323060064#323060064#0(0"0(0#0#46"/Users/sean/Documents/iPhone dev/DokBot/main.m8662987904#1927"    cd "/Users/sean/Documents/iPhone dev/DokBot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-generated-files.hmap" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-own-target-headers.hmap" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-all-target-headers.hmap" -iquote "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-project-headers.hmap" "-F/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator" "-I/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/include" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DerivedSources/i386" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DerivedSources" -include /var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-drvphilusbmlkyergahwgnwdflaf/DokBot_Prefix.pch -c "/Users/sean/Documents/iPhone dev/DokBot/main.m" -o "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/Objects-normal/i386/main.o"0#
-
-CCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.xib"
-s323060061.510535
-e323060062.631486
-r1
-xCompileXIB
-x/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.xib
-lSLF07#2@42"CompileXIB Classes/LoginViewController.xib323060061#323060062#0(0"0(0#0#71"/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.xib8662887104#604"    cd "/Users/sean/Documents/iPhone dev/DokBot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/LoginViewController.nib" "/Users/sean/Documents/iPhone dev/DokBot/Classes/LoginViewController.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/FirstView.xib"
-s323060061.401519
-e323060062.501456
-r1
-xCompileXIB
-x/Users/sean/Documents/iPhone dev/DokBot/FirstView.xib
-lSLF07#2@24"CompileXIB FirstView.xib323060061#323060062#0(0"0(0#0#53"/Users/sean/Documents/iPhone dev/DokBot/FirstView.xib8613256608#576"    cd "/Users/sean/Documents/iPhone dev/DokBot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/FirstView.nib" "/Users/sean/Documents/iPhone dev/DokBot/FirstView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/MainWindow.xib"
-s323060058.295376
-e323060061.401234
-r1
-xCompileXIB
-x/Users/sean/Documents/iPhone dev/DokBot/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib323060058#323060061#0(0"0(0#0#54"/Users/sean/Documents/iPhone dev/DokBot/MainWindow.xib8642802400#578"    cd "/Users/sean/Documents/iPhone dev/DokBot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/MainWindow.nib" "/Users/sean/Documents/iPhone dev/DokBot/MainWindow.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CCompileXIB "/Users/sean/Documents/iPhone dev/DokBot/SecondView.xib"
-s323060058.296991
-e323060061.510398
-r1
-xCompileXIB
-x/Users/sean/Documents/iPhone dev/DokBot/SecondView.xib
-lSLF07#2@25"CompileXIB SecondView.xib323060058#323060061#0(0"0(0#0#54"/Users/sean/Documents/iPhone dev/DokBot/SecondView.xib8637077376#578"    cd "/Users/sean/Documents/iPhone dev/DokBot"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.3    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/SecondView.nib" "/Users/sean/Documents/iPhone dev/DokBot/SecondView.xib" --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk0#
-
-CGenerateDSYMFile "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app.dSYM" "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/DokBot"
-r0
-
-CLd "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/DokBot" normal i386
-r0
-
-CProcessInfoPlistFile "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/Info.plist" DokBot-Info.plist
-s323060058.283023
-e323060058.295261
-r1
-xProcessInfoPlistFile
-x/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/Info.plist
-xDokBot-Info.plist
-lSLF07#2@25"Process DokBot-Info.plist323060058#323060058#0(0"0(0#0#57"/Users/sean/Documents/iPhone dev/DokBot/DokBot-Info.plist8633026464#485"    cd "/Users/sean/Documents/iPhone dev/DokBot"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility DokBot-Info.plist -genpkginfo "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app/Info.plist"0#
-
-CProcessPCH /var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-drvphilusbmlkyergahwgnwdflaf/DokBot_Prefix.pch.gch DokBot_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s323060062.631630
-e323060064.123252
-r1
-xProcessPCH
-x/var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-drvphilusbmlkyergahwgnwdflaf/DokBot_Prefix.pch.gch
-xDokBot_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@28"Precompile DokBot_Prefix.pch323060062#323060064#0(0"0(0#0#57"/Users/sean/Documents/iPhone dev/DokBot/DokBot_Prefix.pch8663466528#1817"    cd "/Users/sean/Documents/iPhone dev/DokBot"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.3.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40300 -iquote "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-generated-files.hmap" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-own-target-headers.hmap" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-all-target-headers.hmap" -iquote "/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DokBot-project-headers.hmap" "-F/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator" "-I/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/include" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DerivedSources/i386" "-I/Users/sean/Documents/iPhone dev/DokBot/build/DokBot.build/Debug-iphonesimulator/DokBot.build/DerivedSources" -c "/Users/sean/Documents/iPhone dev/DokBot/DokBot_Prefix.pch" -o /var/folders/ir/irYnefv5GdehWzVQ8ShxUk+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/DokBot_Prefix-drvphilusbmlkyergahwgnwdflaf/DokBot_Prefix.pch.gch0#
-
-CTouch "/Users/sean/Documents/iPhone dev/DokBot/build/Debug-iphonesimulator/DokBot.app"
-r0
-
